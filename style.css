@@ -1299,12 +1299,13 @@ button:active {
     right: 18px;
 }
 
-.menu--open .menu {
+.btn__menu .menu {
     visibility: visible;
-    transform: translateX(0.5px\\);
+    transform: translateX(0);
+    opacity: 1;
 }
 
-.menu__open {
+.menu--open {
     max-height: 100vh;
 }
 
@@ -1407,7 +1408,16 @@ button:active {
 
 }
 
+@media(max-width:640px) {
+    .nav__logo {
+        margin: 8px 0;
+        padding-bottom: 4px;
+}
+}
 
+@media (max-width:768px) {
+
+}
 
 @media (max-width: 1024px) {
     
